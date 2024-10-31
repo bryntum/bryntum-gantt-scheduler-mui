@@ -26,6 +26,6 @@ Run the local dev server using the following command:
 npm run dev
 ```
 
-You'll see the template MUI app at `http://localhost:5173/` with a blog posts and categories page:
+Open `http://localhost:5173/`, you'll see the template MUI app:
 
 ![Initial MUI app](images/initial-mui-app.png)
