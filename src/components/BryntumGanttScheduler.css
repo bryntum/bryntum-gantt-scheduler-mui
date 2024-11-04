@@ -1,0 +1,5 @@
+@import '@bryntum/core-thin/core.material.css';
+@import '@bryntum/grid-thin/grid.material.css';
+@import '@bryntum/scheduler-thin/scheduler.material.css';
+@import '@bryntum/schedulerpro-thin/schedulerpro.material.css';
+@import '@bryntum/gantt-thin/gantt.material.css';

@@ -9,6 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@bryntum/core-react-thin": "^6.1.2",
+    "@bryntum/core-thin": "^6.1.2",
+    "@bryntum/engine-thin": "^6.1.2",
+    "@bryntum/gantt-react-thin": "^6.1.2",
+    "@bryntum/gantt-thin": "^6.1.2",
+    "@bryntum/grid-thin": "^6.1.2",
+    "@bryntum/scheduler-react-thin": "^6.1.2",
+    "@bryntum/scheduler-thin": "^6.1.2",
+    "@bryntum/schedulerpro-thin": "^6.1.2",
     "@emotion/react": "11.13.3",
     "@emotion/styled": "11.13.0",
     "@mui/icons-material": "6.1.5",
