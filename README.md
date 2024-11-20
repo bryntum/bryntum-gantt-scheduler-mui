@@ -1,6 +1,6 @@
 # Using Bryntum Gantt and Bryntum Scheduler with React and Material UI components
 
-This [Material UI](https://mui.com/) (MUI) project was generated using the [MUI Vite.js with TypeScript example project](https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-ts).
+This [Material UI (MUI)](https://mui.com/) project was generated using the [MUI Vite.js with TypeScript example project](https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-ts).
 
 It has an added [navigation drawer](https://mui.com/material-ui/react-drawer/) with three pages: 
 
@@ -20,12 +20,12 @@ npm install
 
 ## Running the app
 
-Run the local dev server using the following command:
+Run the local dev server:
 
 ```sh
 npm run dev
 ```
 
-Open `http://localhost:5173/`, you'll see the template MUI app:
+Open `http://localhost:5173/` to see the template MUI app:
 
 ![Initial MUI app](images/initial-mui-app.png)
