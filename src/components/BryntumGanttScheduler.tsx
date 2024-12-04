@@ -52,12 +52,18 @@ export default function BryntumGanttScheduler() {
                 flex          : 1,
                 flexDirection : 'column' }}
         >
-            <Box sx={{ display : 'flex', gap : 1, justifyContent : 'flex-end', py : 2 }}>
+            <Box sx={{ display : 'flex', background : '#fafafa', borderBottom : '1px solid var(--mui-palette-divider);', gap : 1, justifyContent : 'flex-end', py : 2, px : 2 }}>
                 <Tooltip title="Zoom in">
                     <Button
                         id="zoomIn"
                         variant="outlined"
-                        color="primary"
+                        sx={{
+                            color       : 'var(--mui-palette-action-active)',
+                            borderColor : 'var(--mui-palette-action-active)',
+                            '&:hover'   : {
+                                borderColor : 'var(--mui-palette-action-active)'
+                            }
+                        }}
                         onClick={(e) => onZoom(e) }
                     >
                         <ZoomIn />
@@ -67,7 +73,13 @@ export default function BryntumGanttScheduler() {
                     <Button
                         id="zoomOut"
                         variant="outlined"
-                        color="primary"
+                        sx={{
+                            color       : 'var(--mui-palette-action-active)',
+                            borderColor : 'var(--mui-palette-action-active)',
+                            '&:hover'   : {
+                                borderColor : 'var(--mui-palette-action-active)'
+                            }
+                        }}
                         onClick={(e) => onZoom(e) }
                     >
                         <ZoomOut />

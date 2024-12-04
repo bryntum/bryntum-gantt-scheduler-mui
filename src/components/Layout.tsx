@@ -118,9 +118,9 @@ export default function Layout() {
                     ))}
                 </List>
             </Drawer>
-            <Box component="main" sx={{ flexGrow : 1, p : 3 }}>
+            <Box component="main" sx={{ flexGrow : 1, p : 0 }}>
                 <DrawerHeader />
-                <Container maxWidth="lg" sx={{ pb : 4, height : '100%' }}>
+                <Container maxWidth={false} disableGutters sx={{ pb : 0, height : '100%' }}>
                     <Outlet />
                 </Container>
             </Box>
